@@ -1,0 +1,24 @@
+{
+  "name": "anydoor2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint":"eslint .",
+    "fix":"eslint --fix"
+  },
+  "pre-commit":[
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/545047874/anydoor2.git"
+  },
+  "author": "吕哲燊 <545047874@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/545047874/anydoor2/issues"
+  },
+  "homepage": "https://github.com/545047874/anydoor2#readme"
+}
